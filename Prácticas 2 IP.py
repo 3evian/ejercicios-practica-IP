@@ -91,20 +91,124 @@ c=2
 
 #EJERCICIO 10
 
-#fijo=480
-#exceso=250*25.5
-#impuesto=78
+#fijo=int(input("fijo"))
+#exceso=int(input("exceso"))
+#excesocontado=exceso*25.5
+#impuesto=int(input("impuesto"))
 
-#print(("total a pagar",fijo+exceso+impuesto))
+#print(("total a pagar",fijo+excesocontado+impuesto))
 
 #EJERCICIO 11
+#Se desea escribir un programa que pida al usuario tres números y luego muestre el mayor de
+#ellos. Escribir el programa en papel, realizar 3 pruebas de escritorio y luego pasarlo a Python y
+#verificar los resutlados #####NO LO HICE
 
-numero1=int(input("primer numero"))
-numero2=int(input("segundo numero"))
-numero3=int(input("tercer numero"))
-if numero1>numero2 and numero3:
-    print("numero1 es el mayor")
-if numero2>numero1 and numero3:
-    print("numero2 es el mayor")
-if numero3>numero1 and numero2:
-    print("numero3 es el mayor")
+#numero1=int(input("primer numero"))
+#numero2=int(input("segundo numero"))
+#numero3=int(input("tercer numero"))
+#if (numero1>numero2 and numero3):
+    #print("numero1 es el mayor")
+#if (numero2>numero1 and numero3):
+    #print("numero2 es el mayor")
+#if (numero3>numero1 and numero2):
+    #print("numero3 es el mayor")
+
+#Ejercicio 12
+
+nota1=float(input("nota"))
+nota2=float(input("nota"))
+nota3=float(input("nota"))
+promedio=((nota1+nota2+nota3)/3)
+print(promedio)
+if (promedio<4):
+    print("reprobado")
+else:
+    if (promedio>=4 and promedio<7):
+        print("debe rendir final")
+    else:
+        print("eximido")
+
+
+
+
+
+
+
+#ejercicio 13
+
+#x=int(input("primer valor"))
+#y=int(input("segundo valor"))
+
+
+#if x>y:
+#    print("X es mayor")
+#else:
+#    print("Y es mayor")
+
+#EJERCICIO 14
+
+#x=int(input("primer valor"))
+#y=int(input("segundo valor"))
+#aux=x
+#x=y
+#y=aux
+#print(aux,x,y)
+
+
+
+#EJERCICIO 15
+
+#print("este programa ordena tres numeros de mayor a menor")
+#a=int(input("valor a"))
+#b=int(input("valor b"))
+#c=int(input("valor c"))
+
+#if(a>=b and a>=c):
+#    print(a, end=" ")
+#    if (b>=c):
+#        print(b,c)
+#    else:
+#        print(c,b)
+
+#if(b>=a and b>=c):
+#    print(b, end=" ")
+#    if (a>=c):
+#        print(a,c)
+#    else:
+#        print(c,a)
+
+#if(c>=b and c>=a):
+#    print(c, end=" ")
+#    if (a>=b):
+#        print(a,b)
+#    else:
+#        print(b,a)
+
+#ejercicio 16
+
+#anio=int(input("anio"))
+#if(anio%100==0):
+#    if(not(anio%400==0)):
+#        prin("no bis")
+#    else:
+#        print("bis")
+#else:
+#    if(anio%4==0):
+#        print("bis")
+#    else:
+#        print("no bis")
+
+#EJERCICIO 17
+
+#print("este programa mostrará los valores de ax + b =0")
+
+#a=int(input("asignar valor a"))
+#b=int(input("asignar valor b"))
+
+#if(a!=0):
+#    print("la solución es" ,-b/a)
+#elif(b==0):
+#    print("infinitas soluciones")
+#else:
+#    print("no tiene solución")
+
